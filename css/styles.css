@@ -268,6 +268,10 @@ body {
 }
 
 .team-member {
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
     background-color: var(--main-white-color);
 }
 
@@ -275,7 +279,7 @@ body {
     margin-left: var(--ul-items-gap);
 }
 
-.teem-member-info {
+.team-member-info {
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -374,9 +378,11 @@ body {
     background-color: var(--bgr-color);
 }
 
-.filtr-btn-item {
+.filtr-btn {
     padding-top: 6px;
+    padding-right: 22px;
     padding-bottom: 6px;
+    padding-left: 22px;
 }
 
 .filtr-btn-item + .filtr-btn-item {
