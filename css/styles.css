@@ -405,6 +405,7 @@ body {
     gap: var(--ul-items-gap);
 }
 
+
 .project-card {
     flex-basis: calc((100% - 60px) / 3);
 }
